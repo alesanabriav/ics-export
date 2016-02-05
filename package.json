@@ -1,0 +1,27 @@
+{
+  "name": "ics-export",
+  "version": "1.0.0",
+  "description": "exports calendars and events",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/developersoul/ics-export.git"
+  },
+  "keywords": [
+    "ics",
+    "ical",
+    "calendar"
+  ],
+  "author": "Alejandro Sanabria <alesanabriav@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/developersoul/ics-export/issues"
+  },
+  "homepage": "https://github.com/developersoul/ics-export#readme",
+  "dependencies": {
+    "moment": "^2.11.2"
+  }
+}

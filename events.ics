@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+PRODID:-//BVC//BVC Calendar//ES
+VERSION:2.0
+X-WR-CALNAME:BVC Derivados
+X-WR-TIMEZONE:America/Bogota
+BEGIN:VEVENT
+DTSTART:20160205T170200Z
+DTEND:20160205T170200Z
+UID:uarqcow7es
+SUMMARY:test from ics export
+DESCRIPTION:
+LOCATION:su casa
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:this is for remember you that you have an appoinment in 1 day
+TRIGGER:-P1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:this is for remember you that you have an appoinment in 1 hour
+TRIGGER:-P2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20160205T170200Z
+DTEND:20160205T170200Z
+UID:am9as9st7w
+SUMMARY:brand has his own calendar app
+DESCRIPTION:
+LOCATION:Calle 146 # 7 - 64
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:this is for remember you that you have an appoinment in 1 day
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:this is for remember you that you have an appoinment in 1 hour
+TRIGGER:-P2H
+END:VALARM
+END:VEVENT
+END:VCALENDAR
