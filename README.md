@@ -58,12 +58,15 @@ A Simple json to ical export file
 
 ## Example
 1. Clone the package
+
 git clone https://github.com/developersoul/ics-export.git
 
 2. Open the folder
+
 cd ics-export
 
 3. Run the example
+
 node example
 
 ## Inspired on
