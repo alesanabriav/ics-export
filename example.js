@@ -8,7 +8,7 @@ var calendarOpts = {
 
 var events = [
   {
-    title: "test from ics export",
+    title: "test from ics export nea",
     location: "su casa",
     alerts: [
       {
@@ -22,7 +22,7 @@ var events = [
         description: "this is for remember you that you have an appoinment in 1 hour",
         trigger: {
           num: 2,
-          str: "hours"
+          str: "days"
         }
       }
     ]
@@ -49,6 +49,9 @@ var events = [
   }
 ];
 
-var calendar = icsExport.setEvents(calendarOpts, events);
 
-console.log(calendar);
+// var url = icsExport.getFile(calendarOpts, events, function(err, dest) {});
+
+icsExport(calendarOpts, events, function(err, dest) {
+  console.log(dest);
+});

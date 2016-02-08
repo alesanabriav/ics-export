@@ -13,7 +13,9 @@
   "keywords": [
     "ics",
     "ical",
-    "calendar"
+    "calendar",
+    "export calendar",
+    "export events",
   ],
   "author": "Alejandro Sanabria <alesanabriav@gmail.com>",
   "license": "ISC",
