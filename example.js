@@ -1,25 +1,25 @@
 var icsExport = require('./index.js');
 
 var calendarOpts = {
-  prodid: "-//BVC//BVC Calendar//ES",
+  prodid: "-//DEVELOPERSOUL//DEVELOPERSOUL Calendar//ES",
   name: "BVC Derivados",
-  timezone: "America/Bogota",
+  timezone: "America/Bogota"
 };
 
 var events = [
   {
-    title: "test from ics export nea",
-    location: "su casa",
+    title: "test from ics export",
+    location: "My House",
     alerts: [
       {
-        description: "this is for remember you that you have an appoinment in 1 day",
+        description: "this is for remember you that you have an appoinment in 1 hour",
         trigger: {
           num: 1,
           str: "hours"
         }
       },
       {
-        description: "this is for remember you that you have an appoinment in 1 hour",
+        description: "this is for remember you that you have an appoinment in 2 days",
         trigger: {
           num: 2,
           str: "days"
@@ -28,8 +28,8 @@ var events = [
     ]
   },
   {
-    title: "brand has his own calendar app",
-    location: "Calle 146 # 7 - 64",
+    title: "My own calendar",
+    location: "Mr white house's",
     alerts: [
       {
         description: "this is for remember you that you have an appoinment in 1 day",
@@ -39,7 +39,7 @@ var events = [
         }
       },
       {
-        description: "this is for remember you that you have an appoinment in 1 hour",
+        description: "this is for remember you that you have an appoinment in 2 hours",
         trigger: {
           num: 2,
           str: "hours"
@@ -48,9 +48,6 @@ var events = [
     ]
   }
 ];
-
-
-// var url = icsExport.getFile(calendarOpts, events, function(err, dest) {});
 
 icsExport(calendarOpts, events, function(err, dest) {
   console.log(dest);
